@@ -30,7 +30,7 @@ export const ColorModeContextProvider: React.FC<PropsWithChildren> = ({
     );
 
     useEffect(() => {
-        window.localStorage.setItem("colorMode", mode);
+        window.localStorage.setItem("colorMode", "light");
     }, [mode]);
 
     const setColorMode = () => {
