@@ -10,8 +10,3 @@ With modern material design, a fully functional dashboard, a property management
 6. React-based CRUD applications using refine.
 
 
-## To run it Locally
-
-```bash
-npm create refine-app@latest -- --example mern-dashboard-client
-```
